@@ -1,0 +1,11 @@
+librosa
+jiwer
+hazm
+yake
+multi_rake
+fasttext
+numpy
+torch
+torchaudio
+pandas
+pydub
