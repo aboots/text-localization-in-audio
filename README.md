@@ -4,6 +4,8 @@ Text localization in audio involves the identification and localization of relev
 
 This repository contains code for a system that performs text localization in audio, along with the necessary data processing pipeline. The system works for both English and Persian languages and can be used for a variety of applications. Moreover, all large materials such as datasets and models are in [this](https://drive.google.com/drive/folders/1QglqVqjF8WGh3tPwKhQ9dAjRNNEnUKzs) Google Drive link.
 
+More details about the web-based demo can be found here.
+
 ## Data processing pipeline
 ![Data processing pipeline](https://drive.google.com/uc?export=view&id=1ft-GsTHrkBvOG39RcIg4hK-2pXWXOwuo)
 
@@ -24,14 +26,10 @@ To this end, a segmentation technique that detects silences and generates segmen
 ### Persian ASR
 For English data, transcripts were already available in the LibriSpeech dataset. For the Persian language, transcripts for each chunk were extracted using an ASR model developed by ourselves.
 
-```python
-detail about the ASR module (Must be written by Sina)
-```
-
 ### Keyword extraction
-```python
-Must be written by Saeed
-```
+
+We use various methods such as PKE, BERT-based Language Model, YAKE algorithm, Multi-RAKE algorithm, and our fine-tuned Persian Summarizer to extract keywords.
+
 
 
 ## Model
