@@ -43,7 +43,17 @@ Must be written by Saeed
 
 ### Proposed Model
 
+In our proposed model, we train them using Unsupervised Contrastive Learning paradim, where for batches of pairs of text and audio, the model will learn to encode audios and text to a shared embedding space and maximize the similarity between pairs and minimize the similarity between text and audio from different pairs. In the inference time, the model accepts a text query and chunks of audio and will return the similarity score between the text and the audio chunks.
+
+Training Time:
+
 ![Proposed Model](https://drive.google.com/uc?export=view&id=1xALOA49j3QelgF8kpAfuT92gEl8x3FhQ)
+
+Inference Time:
+
+![Inference Model](https://drive.google.com/uc?export=view&id=1VSDwJ3E6YakYkqxbKV1AU28QhHzZP0sM)
+
+
 
 ## Conclusion
 Text localization in audio is a critical problem with diverse applications. This repository provides a data processing pipeline and a system for performing text localization in audio for both English and Persian languages. By developing effective and efficient algorithms for this task, we can improve the accuracy and usability of ASR systems, generate more effective and engaging multimedia content, and augment the overall accessibility and discoverability of audio-based information.
