@@ -2,6 +2,10 @@
 
 This is a Web demo for Audio Text Localization Project.
 
+![Input](https://drive.google.com/uc?export=view&id=16x1mhRtClEj5ETCVf_iM4dCUc2v0nUXP)
+
+![Output](https://drive.google.com/uc?export=view&id=1dg5z1D18cUxjkeUFMVOzVBpDHgxZitFd)
+
 ## Installing Dependencies
 
 ```bash
