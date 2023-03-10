@@ -39,6 +39,8 @@ Must be written by Saeed
 
 ### Baseline
 
+In the baseline model, we take a text and an audio and then chunk the audio using rule-based methods. We the use ASR models to get the text of audio, and then, we calculate the similarity of the query text and the text extracted from audio. Finally, we retrieve the relevant chunks of audio based on this similarity.
+
 ![Baseline](https://drive.google.com/uc?export=view&id=1ye7W4t2E7qTBDRL7XJTKwFEUjPtZHJQG)
 
 ### Proposed Model
