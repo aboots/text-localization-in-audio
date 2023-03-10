@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <style>
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        #search-box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body class="text-bg-light">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex justify-content-center">
+                    <img src="http://sharif.edu/~zarrabi/site/files/tile.png" alt="Logo" class="img-fluid" width="80"
+                        height="80">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="search-box">
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex justify-content-center">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <div class="spinner-border text-light" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <div class="spinner-border text-secondary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <div class="spinner-border text-light" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <div class="spinner-border text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <div class="spinner-border text-light" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <div class="spinner-border text-danger" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <div class="spinner-border text-light" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <div class="spinner-border text-warning" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <div class="spinner-border text-light" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <div class="spinner-border text-info" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <div class="spinner-border text-light" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <div class="spinner-border text-dark" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // make request to /process/{{id}}
+        // after getting response, redirect to /result/{{id}}
+
+        req = new XMLHttpRequest();
+        req.open("GET", "/app_1/process/{{id}}", true);
+        req.send();
+
+        req.onreadystatechange = function () {
+            if (req.readyState == 4 && req.status == 200) {
+                window.location.href = "/app_1/results/{{id}}";
+            }
+        }
+    </script>
+
+    <footer class="footer">
+        <hr class="my-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center">© 2023, All rights reserved.</p>
+                    <p class="text-center">Developed by
+                        <a href="https://www.alexandremagno.com.br">Ahadinia</a>
+                        <a href="https://www.alexandremagno.com.br">Abotorabi</a>
+                        <a href="https://www.alexandremagno.com.br">Dalili</a>
+                        <a href="https://www.alexandremagno.com.br">Haghighi</a>
+                        <a href="https://www.alexandremagno.com.br">Forutan</a>
+                        <a href="https://www.alexandremagno.com.br">Rashidi</a> <br>
+                        As a part of
+                        <a href="https://www.alexandremagno.com.br">Natural Language Processing</a>
+                        <a href="https://www.alexandremagno.com.br">CE</a>
+                        <a href="https://www.alexandremagno.com.br">SUT</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
