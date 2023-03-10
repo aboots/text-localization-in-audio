@@ -5,7 +5,7 @@ Text localization in audio involves the identification and localization of relev
 This repository contains code for a system that performs text localization in audio, along with the necessary data processing pipeline. The system works for both English and Persian languages and can be used for a variety of applications.
 
 ## Data processing pipeline
-![Data processing pipeline](https://github.com/NLP-Final-Projects/AudioTextLocalizer/blob/main/pictures/Data pipeline.png?raw=true)
+![Data processing pipeline](https://drive.google.com/uc?export=view&id=1ft-GsTHrkBvOG39RcIg4hK-2pXWXOwuo)
 
 In order to perform the text localization task, it is necessary to have an appropriate dataset. As no such dataset is currently available, it is necessary to create one. This repository contains code for collecting audio files, segmenting them into smaller chunks, and extracting relevant keywords from them. Also, a Persian dataset containing 70 hours of audio is placed in the 'data/' directory.
 
@@ -18,7 +18,7 @@ In order to effectively localize a text within an input audio stream, it is nece
 Also, given the large variance in the duration of audio files, ranging from a few minutes to hours, it is essential to segment them into smaller chunks for effective training of acoustic models. 
 To this end, a segmentation technique that detects silences and generates segments of at least 10 seconds in length was applied.
 
-![Audio segmentation](https://github.com/NLP-Final-Projects/AudioTextLocalizer/blob/main/pictures/Audio Segmentation.png?raw=true)
+![Audio segmentation](https://drive.google.com/uc?export=view&id=1o2FT3yQHxWj2A_AmhiiOigBPitw-G7Qs)
 
 
 ### Persian ASR
@@ -39,7 +39,7 @@ Must be written by Saeed
 
 ### Baseline
 
-![Baseline](https://github.com/NLP-Final-Projects/AudioTextLocalizer/blob/main/pictures/Baseline.png?raw=true)
+![Baseline](https://drive.google.com/uc?export=view&id=1ye7W4t2E7qTBDRL7XJTKwFEUjPtZHJQG)
 
 ### Proposed Model
 
