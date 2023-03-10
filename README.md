@@ -4,7 +4,7 @@ Text localization in audio involves the identification and localization of relev
 
 This repository contains code for a system that performs text localization in audio, along with the necessary data processing pipeline. The system works for both English and Persian languages and can be used for a variety of applications. Moreover, all large materials such as datasets and models are in [this](https://drive.google.com/drive/folders/1QglqVqjF8WGh3tPwKhQ9dAjRNNEnUKzs) Google Drive link.
 
-More details about the web-based demo can be found here.
+More details about the web-based demo can be found [here](https://github.com/NLP-Final-Projects/AudioTextLocalizer/tree/main/Web).
 
 ## Data processing pipeline
 ![Data processing pipeline](https://drive.google.com/uc?export=view&id=1ft-GsTHrkBvOG39RcIg4hK-2pXWXOwuo)
