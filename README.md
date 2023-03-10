@@ -24,14 +24,10 @@ To this end, a segmentation technique that detects silences and generates segmen
 ### Persian ASR
 For English data, transcripts were already available in the LibriSpeech dataset. For the Persian language, transcripts for each chunk were extracted using an ASR model developed by ourselves.
 
-```python
-detail about the ASR module (Must be written by Sina)
-```
-
 ### Keyword extraction
-```python
-Must be written by Saeed
-```
+
+We use various methods such as PKE, BERT-based Language Model, YAKE algorithm, Multi-RAKE algorithm, and our fine-tuned Persian Summarizer to extract keywords.
+
 
 
 ## Model
