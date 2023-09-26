@@ -59,6 +59,7 @@ Text localization in audio is a critical problem with diverse applications. This
 
 ## Colaborators
 | Name                | Email                     |
+| --- | --- |
 | Saeed Foroutan      |Foroutan@sharif.edu        |
 | Mahdi Abootorabi    |mahdi.abootorabi@sharif.edu|
 | Parsa Haghighi      |Haghighi@sharif.edu        |
