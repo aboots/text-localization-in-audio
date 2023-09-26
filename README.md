@@ -53,7 +53,5 @@ Inference Time:
 
 ![Inference Model](https://drive.google.com/uc?export=view&id=1VSDwJ3E6YakYkqxbKV1AU28QhHzZP0sM)
 
-
-
 ## Conclusion
 Text localization in audio is a critical problem with diverse applications. This repository provides a data processing pipeline and a system for performing text localization in audio for both English and Persian languages. By developing effective and efficient algorithms for this task, we can improve the accuracy and usability of ASR systems, generate more effective and engaging multimedia content, and augment the overall accessibility and discoverability of audio-based information.
