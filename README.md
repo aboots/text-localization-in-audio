@@ -55,3 +55,13 @@ Inference Time:
 
 ## Conclusion
 Text localization in audio is a critical problem with diverse applications. This repository provides a data processing pipeline and a system for performing text localization in audio for both English and Persian languages. By developing effective and efficient algorithms for this task, we can improve the accuracy and usability of ASR systems, generate more effective and engaging multimedia content, and augment the overall accessibility and discoverability of audio-based information.
+
+
+## Colaborators
+| Name                | Email                     |
+| Saeed Foroutan      |Foroutan@sharif.edu        |
+| Mahdi Abootorabi    |mahdi.abootorabi@sharif.edu|
+| Parsa Haghighi      |Haghighi@sharif.edu        |
+|Sina Rashidi         |sina_rashidi@outlook.com   |
+|Aryan Ahadiniya      |aryan.ahadinia@sharif.edu  |
+|Arshan Dalili        |arshandalili@gmail.com     |
