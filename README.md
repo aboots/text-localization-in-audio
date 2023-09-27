@@ -60,9 +60,10 @@ Text localization in audio is a critical problem with diverse applications. This
 ## Colaborators
 | Name                | Email                     |
 | --- | --- |
-| Saeed Foroutan      |Foroutan@sharif.edu        |
 | Mahdi Abootorabi    |mahdi.abootorabi@sharif.edu|
-| Parsa Haghighi      |Haghighi@sharif.edu        |
-|Sina Rashidi         |sina_rashidi@outlook.com   |
 |Aryan Ahadiniya      |aryan.ahadinia@sharif.edu  |
 |Arshan Dalili        |arshandalili@gmail.com     |
+| Saeed Foroutan      |Foroutan@sharif.edu        |
+| Parsa Haghighi      |Haghighi@sharif.edu        |
+|Sina Rashidi         |sina_rashidi@outlook.com   |
+
